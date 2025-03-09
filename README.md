@@ -10,4 +10,6 @@
 - 使用<b>有限状态机（LSM）</b>设计了 AI 敌人黄蜂女的行为逻辑，并且其在生命值过低时还有其他的行为。
 
 ---
+LynnChrysteiin | Sept 15, 2024
+
 致谢与参考：[Voidmatrix](https://github.com/VoidmatrixHeathcliff)
