@@ -9,10 +9,10 @@
 - 设计了子弹时间的逻辑以及后处理效果，使得游戏中时间流速逐渐放缓同时画面慢慢黯淡。
 - 使用<b>有限状态机（LSM）</b>设计了 AI 敌人黄蜂女的行为逻辑，并且其在生命值过低时还有其他的行为。
 
-> ### 玩家状态机节点
+> ### 玩家状态机节点（[player_state_nodes.h](player_state_nodes.h)）
 > ![image](https://github.com/user-attachments/assets/ed94e717-391a-4682-9177-a7895bd97f80)
 
-> ### 敌人状态机节点
+> ### 敌人状态机节点（[enemy_state_nodes.h](enemy_state_nodes.h)）
 > ![image](https://github.com/user-attachments/assets/32d6d0bb-4e46-44c6-9855-1f1f74922c7a)
 
 ---
