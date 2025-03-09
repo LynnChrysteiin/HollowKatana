@@ -7,7 +7,7 @@
 - 游戏实现了简单的物理引擎，用于处理角色的移动、跳跃和攻击受击、碰撞检测。
 - 设计了<b>单例模式（Singleton Pattern）</b>的工厂方法来实现角色对象和动画图集、音频等资源的管理。
 - 设计了子弹时间的逻辑以及后处理效果，使得游戏中时间流速逐渐放缓同时画面慢慢黯淡。
-- 使用<b>有限状态机（LSM）</b>设计了 AI 敌人黄蜂女的行为逻辑，并且其在生命值过低时还有其他的行为。
+- 使用<b>有限状态机（LSM）</b>设计了 玩家的状态切换和 AI 敌人黄蜂女的行为逻辑，并且敌人在生命值过低时具有不同的行为。
 
 > ### 玩家状态机节点 [```player_state_nodes.h```](player_state_nodes.h) | [```player_state_nodes.cpp```](player_state_nodes.cpp)
 > ![image](https://github.com/user-attachments/assets/ed94e717-391a-4682-9177-a7895bd97f80)
